@@ -1,0 +1,135 @@
+#title {
+    background-color: coral;
+    color: #fff;
+}
+
+p {
+    color: grey;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 6%;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "ubuntu";
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+.btn {
+    margin: 8% 5%;
+}
+
+.btn2{margin: 4% 2% 0 2% ;}
+
+.dog {
+    width: 20%;
+    margin-left: 7%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.fb {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.icon {
+    color: orange;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: coral;
+}
+
+#testimonials {
+    background-color: coral;
+    text-align: center;
+
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.dog-2 {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: coral;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logo {
+    width: 10%;
+    margin: 20px 30px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing{padding: 20px;
+text-align: center;}
+
+.price{padding: 3% 2%;}
+
+@media (max-width: 992px){
+    .dog{position: static;
+    transform: rotate(0);
+    width: 60%;}
+    #title{text-align: center;}
+}
+
+#cta{background-color: coral;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;}
+
+.cta-head{font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;}
+
+#footer{padding: 7% 15%;
+    text-align: center;}
